@@ -1,0 +1,6 @@
+C:\Users\fedor\RiderProjects\Dinic_Algorithm\Dinic_Algorithm\bin\Debug\Dinic_Algorithm.exe
+C:\Users\fedor\RiderProjects\Dinic_Algorithm\Dinic_Algorithm\bin\Debug\Dinic_Algorithm.pdb
+C:\Users\fedor\RiderProjects\Dinic_Algorithm\Dinic_Algorithm\obj\Debug\Dinic_Algorithm.csprojAssemblyReference.cache
+C:\Users\fedor\RiderProjects\Dinic_Algorithm\Dinic_Algorithm\obj\Debug\Dinic_Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\fedor\RiderProjects\Dinic_Algorithm\Dinic_Algorithm\obj\Debug\Dinic_Algorithm.exe
+C:\Users\fedor\RiderProjects\Dinic_Algorithm\Dinic_Algorithm\obj\Debug\Dinic_Algorithm.pdb

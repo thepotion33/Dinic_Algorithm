@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Dinic_Algorithm.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\fedor\RiderProjects\Dinic_Algorithm\.idea\.idea.Dinic_Algorithm\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
