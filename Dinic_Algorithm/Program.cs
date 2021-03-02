@@ -20,7 +20,7 @@ namespace Dinic_Algorithm
             public static List<Arco>[] CreateGraph(int nodes)
             {
                 //Количество вершин в графе
-                List<Arco>[] graph = new List<Arco>[nodes];
+                var graph = new List<Arco>[nodes];
                 for (int i = 0; i < nodes; i++)
                     graph[i] = new List<Arco>();
                 //Список возвращает граф
@@ -37,12 +37,12 @@ namespace Dinic_Algorithm
             {
                 Fill(dist, -1);// Заполнение массива с -1
                 dist[root] = 0;
-                int[] queue = new int[graph.Count()]; // создается очередь для добавления оставшихся значений
-                int sizeQ = 0;
+                var queue = new int[graph.Count()]; // создается очередь для добавления оставшихся значений
+                var sizeQ = 0;
                 queue[sizeQ++] = root;
                 for (int i = 0; i < sizeQ; i++)
                 {
-                    int u = queue[i];
+                    var u = queue[i];
                     foreach (Arco aux in graph[u])
                     {
                         if (dist[aux.t] < 0 && aux._flow < aux.capacity)
@@ -61,10 +61,10 @@ namespace Dinic_Algorithm
                     return root;
                 for (; ptr[u] < Graph[u].Count(); ++ptr[u])
                 {
-                    Arco e = Graph[u][(ptr[u])];
+                    var e = Graph[u][(ptr[u])];
                     if (dist[e.t] == dist[u] + 1 && e._flow < e.capacity)
                     {
-                        int df = Dfs(Graph, ptr, dist, dest, e.t, Math.Min(root, e.capacity - e._flow));
+                        var df = Dfs(Graph, ptr, dist, dest, e.t, Math.Min(root, e.capacity - e._flow));
                         if (df > 0)
                         {
                             e._flow += df;
@@ -78,7 +78,7 @@ namespace Dinic_Algorithm
 
             public static int MaxFlow(List<Arco>[] graph, int root, int dest)
             {
-                int flow = 0;
+                var flow = 0;
                 int[] dist = new int[graph.Length];
                 while (BFS(graph, root, dest, dist))
                 {
